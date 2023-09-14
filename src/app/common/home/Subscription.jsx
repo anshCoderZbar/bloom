@@ -100,16 +100,26 @@ export const Subscription = () => {
             role="tabpanel"
             aria-labelledby="pills-solution-tab"
           >
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse
-            nesciunt obcaecati eius iure ducimus minus assumenda iusto in
-            sapiente rerum accusantium ullam distinctio aliquam, aut voluptate
-            officiis illo laboriosam veniam? Lorem, ipsum dolor sit amet
-            consectetur adipisicing elit. Consectetur quas porro aspernatur nemo
-            totam dolores corporis iure, laborum explicabo quaerat corrupti quos
-            perferendis dicta. Id omnis fugiat voluptates dolorem quisquam culpa
-            totam exercitationem laborum harum quasi qui quibusdam laboriosam
-            atque sunt praesentium, accusantium nesciunt veniam nostrum vero ut
-            quidem doloremque ipsa repellat? Ullam, suscipit explicabo?
+            <div
+              className="tab-pane fade show active"
+              id="pills-mission"
+              role="tabpanel"
+              aria-labelledby="pills-mission-tab"
+            >
+              <div className="row align-items-center mission_tab">
+                <div className="col-md-6">
+                  <div className="subs_head">
+                    <h3>
+                      Building a Decentralized Financial Future with Cardano
+                    </h3>
+                    <p>Manage your customer subscriptions effortlessly</p>
+                  </div>
+                </div>
+                <div className="col-md-6">
+                  <img src={subs1} alt="img" className="subsc_img_1" />
+                </div>
+              </div>
+            </div>
           </div>
           <div
             className="tab-pane fade"
@@ -117,16 +127,26 @@ export const Subscription = () => {
             role="tabpanel"
             aria-labelledby="pills-lending-tab"
           >
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse
-            nesciunt obcaecati eius iure ducimus minus assumenda iusto in
-            sapiente rerum accusantium ullam distinctio aliquam, aut voluptate
-            officiis illo laboriosam veniam? Lorem, ipsum dolor sit amet
-            consectetur adipisicing elit. Consectetur quas porro aspernatur nemo
-            totam dolores corporis iure, laborum explicabo quaerat corrupti quos
-            perferendis dicta. Id omnis fugiat voluptates dolorem quisquam culpa
-            totam exercitationem laborum harum quasi qui quibusdam laboriosam
-            atque sunt praesentium, accusantium nesciunt veniam nostrum vero ut
-            quidem doloremque ipsa repellat? Ullam, suscipit explicabo?
+            <div
+              className="tab-pane fade show active"
+              id="pills-mission"
+              role="tabpanel"
+              aria-labelledby="pills-mission-tab"
+            >
+              <div className="row align-items-center mission_tab">
+                <div className="col-md-6">
+                  <div className="subs_head">
+                    <h3>
+                      Building a Decentralized Financial Future with Cardano
+                    </h3>
+                    <p>Manage your customer subscriptions effortlessly</p>
+                  </div>
+                </div>
+                <div className="col-md-6">
+                  <img src={subs1} alt="img" className="subsc_img_1" />
+                </div>
+              </div>
+            </div>
           </div>
           <div
             className="tab-pane fade"
@@ -134,16 +154,26 @@ export const Subscription = () => {
             role="tabpanel"
             aria-labelledby="pills-borrowing-tab"
           >
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse
-            nesciunt obcaecati eius iure ducimus minus assumenda iusto in
-            sapiente rerum accusantium ullam distinctio aliquam, aut voluptate
-            officiis illo laboriosam veniam? Lorem, ipsum dolor sit amet
-            consectetur adipisicing elit. Consectetur quas porro aspernatur nemo
-            totam dolores corporis iure, laborum explicabo quaerat corrupti quos
-            perferendis dicta. Id omnis fugiat voluptates dolorem quisquam culpa
-            totam exercitationem laborum harum quasi qui quibusdam laboriosam
-            atque sunt praesentium, accusantium nesciunt veniam nostrum vero ut
-            quidem doloremque ipsa repellat? Ullam, suscipit explicabo?
+            <div
+              className="tab-pane fade show active"
+              id="pills-mission"
+              role="tabpanel"
+              aria-labelledby="pills-mission-tab"
+            >
+              <div className="row align-items-center mission_tab">
+                <div className="col-md-6">
+                  <div className="subs_head">
+                    <h3>
+                      Building a Decentralized Financial Future with Cardano
+                    </h3>
+                    <p>Manage your customer subscriptions effortlessly</p>
+                  </div>
+                </div>
+                <div className="col-md-6">
+                  <img src={subs1} alt="img" className="subsc_img_1" />
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>

@@ -4,9 +4,15 @@
   width: 100%;
   position: relative;
   padding-top: 50px;
-  padding-bottom: 44rem;
+  padding-bottom: 30rem;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
 }
+.banner .container {
+  height: 540px;
+  display: flex;
+  align-items: center;
+}
+
 .banner_img img {
   width: 100%;
   height: 100%;
@@ -19,14 +25,14 @@
 }
 .banner_content {
   margin-left: 0 !important;
-  width: 50%;
+  width: 98%;
 }
 .banner_content h1 {
   color: #747474;
   font-family: "Poppins", sans-serif;
   font-size: 60px;
+  font-weight: 700;
 }
-
 .banner_content p {
   font-size: 28px;
   margin: 0;
@@ -99,13 +105,13 @@
 }
 
 .subs_head h3 {
-  font-size: 43px;
+  font-size: 39px;
   color: #747474;
   margin-bottom: 15px;
   font-family: "Poppins", sans-serif;
 }
 .subs_head p {
-  font-size: 28px;
+  font-size: 25px;
   margin: 0;
   width: 450px;
   line-height: 34px;
@@ -224,18 +230,16 @@
 .rc-collapse.show {
   height: auto;
 }
-@media screen and (min-width: 1750px) {
-  .banner_img img {
-    width: 100%;
-    height: 100%;
-    max-width: 1000px;
-  }
-}
+
 @media screen and (max-width: 1400px) {
   .banner_content {
     margin-left: 100px;
   }
-
+  .banner .container {
+    height: 373px;
+    display: flex;
+    align-items: center;
+  }
   .banner_img img {
     max-width: 650px;
   }
@@ -274,18 +278,20 @@
   .banner_content {
     margin-left: 50px;
   }
+  .banner .container {
+    height: 335px;
+    display: flex;
+    align-items: center;
+  }
   .banner_content h1 {
     font-size: 40px;
   }
   .banner_img img {
     width: 500px;
   }
-  .banner_content {
-    margin-left: 0 !important;
-    width: 49%;
-  }
+
   .banner_content p {
-    font-size: 25px;
+    font-size: 22px;
   }
   .subs_cc h2 {
     font-size: 30px;
@@ -326,31 +332,45 @@
   .banner_content {
     margin-left: 0px;
   }
+  .banner .container {
+    height: 307px;
+    display: flex;
+    align-items: center;
+  }
   .banner_img img {
     width: 100%;
     height: 100%;
   }
   .banner_content h1 {
     font-size: 30px;
-    margin-bottom: 17px;
+    margin-bottom: 7px;
   }
   .banner_content p {
-    font-size: 20px;
+    font-size: 18px;
     width: 100%;
     display: block;
   }
-
+  .banner_content {
+    margin-left: 0 !important;
+    width: 70%;
+  }
+  .bann_btn {
+    width: 172px;
+    font-size: 14px;
+  }
   .banner {
     padding-top: 30px;
-    padding-bottom: 26rem;
+    padding-bottom: 17rem;
   }
   .banner_img img {
-    width: 400px;
+    width: 460px;
   }
   .subs_cc {
     padding: 25px 25px;
   }
-
+  .subs_cc {
+    margin-top: -13em;
+  }
   .subs_cc h2 {
     font-size: 25px;
     margin-bottom: 30px;
@@ -397,7 +417,12 @@
 @media screen and (max-width: 767px) {
   .banner {
     padding-top: 27px;
-    padding-bottom: 25rem;
+    padding-bottom: 15rem;
+  }
+  .banner .container {
+    height: 198px;
+    display: flex;
+    align-items: center;
   }
   .bann_btn {
     margin-top: 10px;
@@ -507,17 +532,17 @@
     width: 100%;
     line-height: 31px;
   }
-
   .banner_content p {
-    font-size: 22px;
+    font-size: 20px;
     width: 100%;
     display: block;
+    margin: 10px 0;
   }
   .flex_content {
     padding: 0 10px;
   }
   .flex_content h2 {
-    font-size: 25px;
+    font-size: 23px;
     margin-top: 15px;
   }
   .flex_content p {
@@ -535,6 +560,9 @@
   }
   .page_content p {
     font-size: 15px;
+  }
+  .banner_content h1 br {
+    display: none;
   }
 }
 

@@ -39,12 +39,12 @@ export const Header = () => {
               return (
                 <li key={links?.id}>
                   <a
-                    className={
+                    className={`fw-semibold ${
                       links?.slug === location?.hash ||
                       (links?.slug === "#" && !location?.hash)
-                        ? "nav-active"
+                        ? "nav-active "
                         : null
-                    }
+                    }`}
                     href={links?.slug}
                   >
                     {links?.name}
