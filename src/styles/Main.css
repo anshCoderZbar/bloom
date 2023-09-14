@@ -84,7 +84,7 @@
   background: #fff !important;
   border: 1px solid #787878 !important;
   border-radius: 20px !important;
-  font-size: 19px;
+  font-size: 16px;
   margin: 0 15px;
   width: 100%;
   padding: 10px 25px;
@@ -236,6 +236,25 @@
     width: 100%;
     height: 100%;
     max-width: 600px;
+  }
+  .subs_head h3 {
+    font-size: 33px;
+  }
+  .subs_head p {
+    font-size: 22px;
+  }
+  .subs_cc h2 {
+    font-size: 33px;
+  }
+  .flex_content h2 {
+    font-size: 32px;
+  }
+  .page_content h3 {
+    text-align: center;
+    font-size: 30px;
+  }
+  .page_content p {
+    font-size: 18px;
   }
 }
 @media screen and (max-width: 1199px) {
@@ -396,7 +415,7 @@
   }
   .nav-item button {
     border-radius: 7px !important;
-    font-size: 17px;
+    font-size: 13px;
     margin: 0 0px;
     padding: 10px 12px;
   }
@@ -464,7 +483,7 @@
   }
   .nav-item button {
     border-radius: 9px !important;
-    font-size: 15px;
+    font-size: 12px;
     margin: 0;
     width: 100%;
     padding: 10px 16px;
