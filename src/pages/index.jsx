@@ -25,13 +25,13 @@ export const Home = () => {
           <Banner />
         </div>
       </div>
-      <div className="subscription" id="#learn">
+      <div className="subscription" id="learn">
         <Subscription />
       </div>
-      <div className=" flexColumn" id="#about">
+      <div className=" flexColumn" id="about">
         <DetailCard />
       </div>
-      <div className="container" id="#community">
+      <div className="container" id="community">
         <div className="page_content">
           <h3>Manage your customer subscriptions effortlessly</h3>
           <p>
@@ -43,7 +43,7 @@ export const Home = () => {
           </p>
         </div>
       </div>
-      <div className="container mt-5 mb-5" id="#help">
+      <div className="container mt-5 mb-5" id="help">
         <div className="row justify-content-center">
           <div className="col-md-10 mt-2">
             <div className="card">

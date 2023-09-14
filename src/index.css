@@ -17,6 +17,15 @@ body {
 
 .container {
   width: 100%;
-  max-width: 1200px !important;
+  /* max-width: 1200px !important; */
   margin: 0px auto;
+}
+
+.banner .container-fluid {
+  padding-right: 0;
+}
+.banner_img {
+  position: absolute;
+  right: 0;
+  top: 0;
 }
