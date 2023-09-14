@@ -1,0 +1,137 @@
+/* header css */
+nav {
+  background-color: #e9f8ee;
+
+  width: 100%;
+}
+.navbar {
+  width: 100%;
+}
+
+.logo img {
+  width: 180px;
+}
+
+.navbar ul {
+  all: initial;
+}
+
+.navbar {
+  display: flex;
+  padding: 0 50px;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  z-index: 99;
+}
+.navbar .menu {
+  display: flex;
+  height: 100%;
+  line-height: 100px;
+}
+.navbar .menu li {
+  position: relative;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding: 0 15px;
+  line-height: 80px;
+  font-family: "Poppins", sans-serif;
+}
+.navbar .menu li a {
+  color: #000;
+  text-decoration: none;
+  white-space: nowrap;
+  height: 100%;
+  text-transform: capitalize;
+  transition: 0.3s;
+}
+.navbar .menu li a:hover {
+  color: #000;
+  text-decoration: none;
+  white-space: nowrap;
+  height: 100%;
+  text-transform: capitalize;
+  transition: 0.3s;
+}
+.navbar .navOpen,
+.navbar .navClose {
+  display: none;
+}
+.navbar::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+
+.nav-active {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.footer {
+  background-color: #00c85f;
+  text-align: center;
+  padding: 15px;
+}
+.footer p {
+  margin: 0;
+}
+
+@media screen and (max-width: 1199px) {
+  .logo img {
+    width: 140px;
+  }
+  .navbar .menu {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    background-color: #84a98c;
+    height: 100vh;
+    min-width: 320px;
+    top: 0;
+    right: -100%;
+    line-height: normal;
+    transition: all 0.5s ease;
+  }
+  .navbar .navClose svg path {
+    fill: #000000;
+  }
+  .navbar .menu li {
+    display: block;
+    height: auto;
+    line-height: 45px;
+    padding: 0 24px;
+  }
+  .navbar .menu .navOpen {
+    margin-right: 5%;
+  }
+  .navbar .navOpen,
+  .navbar .navClose {
+    color: #000 !important;
+    font-size: x-large;
+    display: block;
+  }
+  .navbar .navClose {
+    margin: 20px;
+  }
+  .navbar .menu .sub-menu {
+    width: 100%;
+    right: 100%;
+    top: 0;
+    box-shadow: none;
+  }
+  .navbar::after {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .footer p {
+    margin: 0;
+    font-size: 14px;
+  }
+}
