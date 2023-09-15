@@ -15,7 +15,7 @@ export const NFT = (props) => {
           onClick={() => handleToggle(id)}
         >
           <h5 className="rc-accordion-title">{header}</h5>
-          <div className="rc-accordion-icon fs-5 text-white">
+          <div className="rc-accordion-icon fs-5">
             <MdOutlineArrowDropDown />
           </div>
         </div>

@@ -5,7 +5,7 @@
   position: relative;
   padding-top: 50px;
   padding-bottom: 30rem;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  box-shadow: 0 0px 2px rgba(0, 0, 0, 0.12);
 }
 .banner .container {
   height: 540px;
@@ -28,7 +28,7 @@
   width: 98%;
 }
 .banner_content h1 {
-  color: #747474;
+  color: #000;
   font-family: "Poppins", sans-serif;
   font-size: 60px;
   font-weight: 700;
@@ -80,7 +80,7 @@
 .subs_cc h2 {
   font-size: 40px;
   text-align: center;
-  color: #7b7b7b;
+  color: #000;
   font-family: "Poppins", sans-serif;
   margin-bottom: 50px;
 }
@@ -99,14 +99,20 @@
 .nav-pills {
   gap: 15px !important;
 }
+.nav-link:hover {
+  background: #00c85f !important;
+  border: 1px solid #00c85f !important;
+  color: #fff !important;
+}
 .nav-link.active {
-  background: #747474 !important;
+  background: #00c85f !important;
+  border: 1px solid #00c85f !important;
   color: #fff !important;
 }
 
 .subs_head h3 {
   font-size: 39px;
-  color: #747474;
+  color: #000;
   margin-bottom: 15px;
   font-family: "Poppins", sans-serif;
 }
@@ -162,7 +168,7 @@
 }
 .card {
   box-shadow: 0px 5px 10px rgba(90, 116, 148, 0.3);
-  background-color: #23262b !important;
+  background-color: #fff !important;
   border-radius: 2px;
   font-size: 13px;
   font-weight: 500;
@@ -175,10 +181,15 @@
   align-items: center;
   cursor: pointer;
   justify-content: space-between;
-  background-color: #323740;
+  background-color: #fff;
   transition: 0.3s;
 }
-
+.rc-accordion-toggle h5 {
+  color: #000;
+}
+.rc-accordion-toggle.active {
+  background-color: #00c85f;
+}
 .rc-accordion-toggle.active .rc-accordion-icon {
   transform: rotate(180deg);
   color: #fff;
@@ -187,7 +198,10 @@
   border-radius: 5px;
   margin-bottom: 10px;
   overflow: hidden;
-  background-color: #323740;
+  background-color: #00c85f;
+}
+.rc-accordion-body p {
+  color: #fff !important;
 }
 .rc-accordion-card:last-child {
   margin-bottom: 0;
