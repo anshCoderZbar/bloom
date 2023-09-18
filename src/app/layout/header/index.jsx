@@ -42,7 +42,7 @@ export const Header = () => {
             </div>
             {header?.map((links) => {
               return (
-                <li key={links?.id}>
+                <li key={links?.id} onClick={() => setActive(false)}>
                   <a
                     className={`fw-semibold ${
                       links?.slug === location?.hash ||
