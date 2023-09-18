@@ -9,6 +9,9 @@ body {
   overflow-x: hidden;
   scroll-padding-top: 100px;
   background-color: #e9f8ee !important;
+  background: -webkit-linear-gradient(-90deg, #e9f8ee 0, #e9f8ee 100%);
+  background: -moz-linear-gradient(180deg, #e9f8ee 0, #e9f8ee 100%);
+  background: linear-gradient(180deg, #e9f8ee 0, #e9f8ee 100%);
 }
 .cursor-pointer {
   cursor: pointer;
