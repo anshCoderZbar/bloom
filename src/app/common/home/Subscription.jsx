@@ -83,10 +83,14 @@ export const Subscription = () => {
             <div className="row align-items-center mission_tab">
               <div className="col-md-6">
                 <div className="subs_head">
-                  <h3>
-                    Building a Decentralized Financial Future with Cardano
-                  </h3>
-                  <p>Manage your customer subscriptions effortlessly</p>
+                  <h3>Our Mission</h3>
+                  <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Doloremque sequi voluptatem architecto cum, vel incidunt
+                    sunt ut aperiam tenetur quo rerum quibusdam aliquid
+                    laudantium sapiente, dignissimos ea molestiae! Veniam,
+                    nihil.
+                  </p>
                 </div>
               </div>
               <div className="col-md-6">
@@ -109,10 +113,14 @@ export const Subscription = () => {
               <div className="row align-items-center mission_tab">
                 <div className="col-md-6">
                   <div className="subs_head">
-                    <h3>
-                      Building a Decentralized Financial Future with Cardano
-                    </h3>
-                    <p>Manage your customer subscriptions effortlessly</p>
+                    <h3>Our Solution</h3>
+                    <p>
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                      Doloremque sequi voluptatem architecto cum, vel incidunt
+                      sunt ut aperiam tenetur quo rerum quibusdam aliquid
+                      laudantium sapiente, dignissimos ea molestiae! Veniam,
+                      nihil.
+                    </p>
                   </div>
                 </div>
                 <div className="col-md-6">
@@ -136,10 +144,14 @@ export const Subscription = () => {
               <div className="row align-items-center mission_tab">
                 <div className="col-md-6">
                   <div className="subs_head">
-                    <h3>
-                      Building a Decentralized Financial Future with Cardano
-                    </h3>
-                    <p>Manage your customer subscriptions effortlessly</p>
+                    <h3>Lending</h3>
+                    <p>
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                      Doloremque sequi voluptatem architecto cum, vel incidunt
+                      sunt ut aperiam tenetur quo rerum quibusdam aliquid
+                      laudantium sapiente, dignissimos ea molestiae! Veniam,
+                      nihil.
+                    </p>
                   </div>
                 </div>
                 <div className="col-md-6">
@@ -163,10 +175,14 @@ export const Subscription = () => {
               <div className="row align-items-center mission_tab">
                 <div className="col-md-6">
                   <div className="subs_head">
-                    <h3>
-                      Building a Decentralized Financial Future with Cardano
-                    </h3>
-                    <p>Manage your customer subscriptions effortlessly</p>
+                    <h3>Borrowing</h3>
+                    <p>
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                      Doloremque sequi voluptatem architecto cum, vel incidunt
+                      sunt ut aperiam tenetur quo rerum quibusdam aliquid
+                      laudantium sapiente, dignissimos ea molestiae! Veniam,
+                      nihil.
+                    </p>
                   </div>
                 </div>
                 <div className="col-md-6">

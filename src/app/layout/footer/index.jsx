@@ -8,11 +8,11 @@ export const Footer = () => {
   return (
     <div className="footer">
       <div className="container">
-        <div className="d-flex align-items-center justify-content-between flex-wrap footer_sec">
+        <div className="d-flex align-items-center justify-content-between  footer_sec">
           <p>
             Copyright © {new Date().getFullYear()} All Rights Reserved by Bloom.
           </p>
-          <div className="social_icons">
+          <div className="social_icons footer_icon">
             <ul>
               <li className="footer_social">
                 <a href="#">

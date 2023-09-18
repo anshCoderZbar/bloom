@@ -17,26 +17,28 @@ export const Header = () => {
   const [active, setActive] = useState(false);
   useEffect(() => {
     if (active) {
-      document.body.addEventListener("mousedown", () => setActive(false));
-    } else return;
+      document.body.style.overflowY = "hidden";
+    } else {
+      document.body.style.overflowY = "auto";
+    }
 
     return () => {
-      document.body.removeEventListener("mousedown", () => setActive(false));
+      document.body.style.overflowY = "auto";
     };
   }, [active]);
   return (
     <nav className="fadein fadein--one">
-      <div className="container-fluid ">
+      <div className="container-fluid g-0">
         <div className="navbar_fad">
           <div className="logo">
             <img src={logo} alt="logo" />
           </div>
-          <ul className="menu " style={{ right: active ? "0" : "-100%" }}>
+          <ul className={`menu ${active ? "menu-active" : ""}`}>
             <div
               className=" navClose cursor-pointer "
               onClick={() => setActive(false)}
             >
-              <AiOutlineClose />
+              <img src={logo} alt="logo" className="nav_log" />
             </div>
             {header?.map((links) => {
               return (
@@ -55,8 +57,25 @@ export const Header = () => {
                 </li>
               );
             })}
+            <div className=" ul_ico">
+              <li>
+                <a href="#">
+                  <img src={twitter} alt="twitter" width={40} />
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src={telegram} alt="telegram" width={40} />
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src={medium} alt="medium" width={40} />
+                </a>
+              </li>
+            </div>
           </ul>
-          <div className="social_icons">
+          <div className="social_icons ul_ico2">
             <ul>
               <li>
                 <a href="#">
@@ -76,7 +95,7 @@ export const Header = () => {
             </ul>
           </div>
           <div
-            onClick={() => setActive(true)}
+            onClick={() => setActive(!active)}
             className="navOpen cursor-pointer"
           >
             <RxHamburgerMenu />

@@ -13,7 +13,7 @@ export const Banner = () => {
             </h1>
             <p>Manage your customer subscriptions effortlessly</p>
             <div className="bann_btn">
-              <a href="#">Click Me</a>
+              <a href="#">Click</a>
             </div>
           </div>
         </div>
