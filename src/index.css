@@ -8,10 +8,14 @@
 body {
   overflow-x: hidden;
   scroll-padding-top: 100px;
-  background-color: #f4f4f4 !important;
+  background-color: #e9f8ee !important;
 }
 .cursor-pointer {
   cursor: pointer;
+}
+
+.page_background {
+  background-color: #f4f4f4 !important;
 }
 
 .container {

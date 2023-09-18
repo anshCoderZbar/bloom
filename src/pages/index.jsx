@@ -25,36 +25,38 @@ export const Home = () => {
           <Banner />
         </div>
       </div>
-      <div className="subscription" id="learn">
-        <Subscription />
-      </div>
-      <div className=" flexColumn" id="about">
-        <DetailCard />
-      </div>
-      <div className="container" id="community">
-        <div className="page_content">
-          <h3>Manage your customer subscriptions effortlessly</h3>
-          <p>
-            Lotem ipsum dolor sit amet- nnsectetur advpisong elit. sed do
-            e•usrnod tempor incid•dunt ut labore et dolore magna ai•qua.
-          </p>
+      <div className="page_background">
+        <div className="subscription" id="learn">
+          <Subscription />
         </div>
-      </div>
-      <div className="container mt-5 mb-5" id="help">
-        <div className="row justify-content-center">
-          <div className="col-md-10 mt-2">
-            <div className="card">
-              <div className="card-body">
-                {nft.map((nft, index) => {
-                  return (
-                    <NFT
-                      key={index}
-                      active={active}
-                      handleToggle={handleToggle}
-                      nft={nft}
-                    />
-                  );
-                })}
+        <div className=" flexColumn" id="about">
+          <DetailCard />
+        </div>
+        <div className="container" id="community">
+          <div className="page_content">
+            <h3>Manage your customer subscriptions effortlessly</h3>
+            <p>
+              Lotem ipsum dolor sit amet- nnsectetur advpisong elit. sed do
+              e•usrnod tempor incid•dunt ut labore et dolore magna ai•qua.
+            </p>
+          </div>
+        </div>
+        <div className="container mt-5 mb-5" id="help">
+          <div className="row justify-content-center">
+            <div className="col-md-10 mt-2">
+              <div className="card">
+                <div className="card-body">
+                  {nft.map((nft, index) => {
+                    return (
+                      <NFT
+                        key={index}
+                        active={active}
+                        handleToggle={handleToggle}
+                        nft={nft}
+                      />
+                    );
+                  })}
+                </div>
               </div>
             </div>
           </div>
