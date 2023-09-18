@@ -159,10 +159,12 @@
 .flex_content h2 {
   font-size: 35px;
   font-weight: 700;
+  text-align: center;
 }
 
 .flex_content p {
   font-size: 18px;
+  text-align: center;
 }
 
 /* content detail */
@@ -185,6 +187,7 @@
   font-family: "Poppins", sans-serif;
   margin: 0;
   color: #979a97;
+  text-align: center;
 }
 
 /* accordion */
