@@ -17,7 +17,7 @@ export const DetailCard = () => {
           </div>
         </div>
       </div>
-      <div className="row align-items-centerpt-4">
+      <div className="row align-items-center pt-4">
         <div className="col-sm-6">
           <div className="flex_content">
             <h2>Manage your customer subscriptions effortlessly</h2>
