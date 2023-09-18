@@ -10,7 +10,8 @@ export const Footer = () => {
       <div className="container">
         <div className="d-flex align-items-center justify-content-between  footer_sec">
           <p>
-            Copyright © {new Date().getFullYear()} All Rights Reserved by Bloom.
+            Copyright © {new Date().getFullYear()} All Rights Reserved by Bloom
+            Finance.
           </p>
           <div className="social_icons footer_icon">
             <ul>
