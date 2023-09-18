@@ -8,7 +8,7 @@ export const Subscription = () => {
       <div className="subs_cc">
         <div className="row justify-content-center ">
           <div className="col-12 col-md-10 col-lg-8 ">
-            <h2>Manage your customer subscriptions</h2>
+            <h2>Manage your customer subscriptions effortlessly</h2>
           </div>
         </div>
         <ul

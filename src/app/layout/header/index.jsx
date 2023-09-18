@@ -6,6 +6,7 @@ import { header } from "../../mock/header";
 import { useLocation } from "react-router-dom";
 
 import logo from "app/assets/logo.png";
+import bloom_icon from "app/assets/bloom_icon.png";
 import twitter from "app/assets/Twitter.png";
 import telegram from "app/assets/Telegram.png";
 import medium from "app/assets/Medium.png";
@@ -31,7 +32,8 @@ export const Header = () => {
       <div className="container-fluid g-0">
         <div className="navbar_fad">
           <div className="logo">
-            <img src={logo} alt="logo" />
+            <img src={logo} alt="logo" className="nav_icon_main" />
+            <img src={bloom_icon} alt="logo" className="nav_icon" />
           </div>
           <ul className={`menu ${active ? "menu-active" : ""}`}>
             <div

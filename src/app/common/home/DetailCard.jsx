@@ -6,7 +6,7 @@ import img2 from "app/assets/img_vss2.png";
 export const DetailCard = () => {
   return (
     <div className="container">
-      <div className="row align-items-center ">
+      <div className="row align-items-center  flex-wrap-reverse ">
         <div className="col-sm-6">
           <img src={img1} alt="image" className="w-100 h-100" />
         </div>
@@ -17,7 +17,7 @@ export const DetailCard = () => {
           </div>
         </div>
       </div>
-      <div className="row align-items-center flex-wrap-reverse pt-4">
+      <div className="row align-items-centerpt-4">
         <div className="col-sm-6">
           <div className="flex_content">
             <h2>Manage your customer subscriptions effortlessly</h2>

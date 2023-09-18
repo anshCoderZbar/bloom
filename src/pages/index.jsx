@@ -36,10 +36,7 @@ export const Home = () => {
           <h3>Manage your customer subscriptions effortlessly</h3>
           <p>
             Lotem ipsum dolor sit amet- nnsectetur advpisong elit. sed do
-            e•usrnod tempor incid•dunt ut labore et dolore magna ai•qua. ut enim
-            mimm vemam. quis nostrud exercitation ullamco labons nisi ut alguip
-            ex ea comm,odo consequat Outs aute irure dolo,• in reprehendent in
-            voluptate vet esse •ilum dolore eu fugat nulla
+            e•usrnod tempor incid•dunt ut labore et dolore magna ai•qua.
           </p>
         </div>
       </div>
